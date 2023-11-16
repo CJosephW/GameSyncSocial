@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",          // Or another target version
+      "module": "ESNext",        // Or "ES6" if you're using ES modules
+      "strict": true,
+      "baseUrl": "./",             // Set to the root of your project
+      "esModuleInterop": true,
+      "moduleResolution": "node",
+      "paths": {
+        "*": ["node_modules/*"]
+      },
+      "rootDir": "./",
+      
+      "allowSyntheticDefaultImports": true
+    },
+    "include": ["*.ts"],    // Adjust the path to your TypeScript files
+    "exclude": ["node_modules"]
+}
+  
