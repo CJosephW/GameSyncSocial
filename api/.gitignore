@@ -1,3 +1,4 @@
 /node_modules
+**/sql/data
 .env
 *.pem
